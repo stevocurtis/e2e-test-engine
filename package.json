@@ -1,0 +1,19 @@
+{
+  "name": "e2e-test-engine",
+  "version": "0.0.1",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stevocurtis/e2e-test-engine.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stevocurtis/e2e-test-engine/issues"
+  },
+  "homepage": "https://github.com/stevocurtis/e2e-test-engine#readme"
+}
