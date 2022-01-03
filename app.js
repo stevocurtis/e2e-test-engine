@@ -2,10 +2,6 @@ var express = require('express');
 var app = express();
 var testUtils = require('./test-utils');
 
-app.listen(3000, () => {
-    console.log('Server running on port 3000');
-})
-
 app.get('/url', (req, res, next) => {
     const responsePayload = {
         'a': 1,
@@ -14,4 +10,7 @@ app.get('/url', (req, res, next) => {
     }
     res.json(responsePayload)
 })
-console.log('Hello world');
+
+app.listen(3000, () => {
+    console.log('Server running on port 3000');
+})
