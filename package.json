@@ -4,6 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
+    "nodemon": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/stevocurtis/e2e-test-engine/issues"
   },
-  "homepage": "https://github.com/stevocurtis/e2e-test-engine#readme"
+  "homepage": "https://github.com/stevocurtis/e2e-test-engine#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
 }
