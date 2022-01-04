@@ -5,7 +5,8 @@
   "main": "app.js",
   "scripts": {
     "nodemon": "nodemon app.js",
-    "test": "jest"
+    "test": "jest",
+    "testmon": "nodemon -x \"npm test\""
   },
   "repository": {
     "type": "git",
@@ -18,7 +19,8 @@
   },
   "homepage": "https://github.com/stevocurtis/e2e-test-engine#readme",
   "dependencies": {
-    "express": "^4.17.2"
+    "express": "^4.17.2",
+    "winston": "^3.3.3"
   },
   "devDependencies": {
     "jest": "^27.4.5",
